@@ -1,0 +1,1 @@
+Uses Ollama for AI prompting. You can use free API key. Export it as env `OLLAMA_API_KEY`.
