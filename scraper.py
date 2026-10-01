@@ -10,15 +10,16 @@ class FishBasePageScraper:
     nutrients: dict = {}
     health_checks: list = []
     health_risks: list = []
+    source_url: str
 
 
     def __init__(self, genus: str, species: str, base_url='https://fishbase.se/'):
-        self.page_url = urljoin(base_url, f'summary/{genus}_{species}.html')
+        self.source_url = urljoin(base_url, f'summary/{genus}_{species}.html')
         self.tree = self.scrape_page()
 
 
     def scrape_page(self):
-        response = requests.get(self.page_url, timeout=10)
+        response = requests.get(self.source_url, timeout=10)
         response.raise_for_status()
 
         return html.fromstring(response.content)
@@ -26,7 +27,7 @@ class FishBasePageScraper:
 
     def scrap_names(self):
         href = self.tree.xpath('//*[@id="ss-main"]/div[18]/span/span[3]/a/@href')[0]
-        xml_url = urljoin(self.page_url, href)
+        xml_url = urljoin(self.source_url, href)
 
         xml = requests.get(xml_url, timeout=10)
         xml.raise_for_status()

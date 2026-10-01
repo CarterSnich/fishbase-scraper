@@ -20,7 +20,7 @@ for fish in fishes:
 
     print(fish)
     fb = FishBasePageScraper(genus, species)
-    print(f"Scraping page: {fb.page_url}")
+    print(f"Scraping page: {fb.source_url}")
     fb.scrape_all()
 
     data[fish] = {
@@ -29,7 +29,8 @@ for fish in fishes:
         "description": fb.description,
         "nutrients": fb.nutrients,
         "health_checks": fb.health_checks,
-        "health_risks": fb.health_risks
+        "health_risks": fb.health_risks,
+        "source": fb.source_url
     }
 
     print("Done.")
