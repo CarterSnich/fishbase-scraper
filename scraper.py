@@ -1,6 +1,7 @@
 import json, os, requests, re
 from urllib.parse import urljoin
 from lxml import html, etree
+from openai import OpenAI
 
 
 class FishBasePageScraper:
@@ -11,11 +12,16 @@ class FishBasePageScraper:
     health_checks: list = []
     health_risks: list = []
     source_url: str
+    client: OpenAI
 
 
     def __init__(self, genus: str, species: str, base_url='https://fishbase.se/'):
         self.source_url = urljoin(base_url, f'summary/{genus}_{species}.html')
         self.tree = self.scrape_page()
+        self.client = OpenAI(
+            base_url="https://api.groq.com/openai/v1",  # free, no credit card
+            api_key=os.getenv("GROQ_API_KEY")  # get at console.groq.com/keys
+        )
 
 
     def scrape_page(self):
@@ -62,7 +68,13 @@ class FishBasePageScraper:
         \"{text}\"
         '''
 
-        self.description = prompt_ai(prompt.strip())
+        response = self.prompt_ai(prompt_message=prompt.strip())
+
+        if not response:
+            print("No description response from AI")
+            return ""
+
+        self.description = response.replace('\u202f', ' ')
         return self.description
 
 
@@ -112,11 +124,29 @@ class FishBasePageScraper:
         ```{self.nutrients}```
         '''
 
-        json_string = prompt_ai(prompt)
+        json_schema = {
+            "type": "object",
+            "properties": {
+                "risks": {"type": "array", "items": {"type": "string"}},
+                "benefits": {"type": "array", "items": {"type": "string"}},
+            },
+            "required": ["risks", "benefits"],
+            "additionalProperties": False,
+        }
+
+        json_string = self.prompt_ai(prompt_message=prompt, schema=json_schema)
+
+        if not json_string:
+            print("No health checks response from AI")
+            return {
+                "benefits": [],
+                "risks": []
+            }
+
         parsed = json.loads(json_string)
 
-        self.health_checks = parsed['benefits']
-        self.health_risks = parsed['risks']
+        self.health_checks = [t.replace('\u202f', ' ') for t in parsed['benefits']]
+        self.health_risks = [t.replace('\u202f', ' ') for t in parsed['risks']]
 
         return parsed
 
@@ -128,22 +158,21 @@ class FishBasePageScraper:
         self.scrape_health_checks()
 
 
-def prompt_ai(prompt_message: str):
-    headers = {
-        "Authorization": f"Bearer {os.getenv("OLLAMA_API_KEY")}",
-        "Content-Type": "application/json"
-    }
-    payload = {
-        "model": "gpt-oss:120b-cloud",
-        "prompt": prompt_message,
-        "stream": False
-    }
+    def prompt_ai(self, prompt_message: str, model: str = "openai/gpt-oss-120b",
+                  schema: dict | None = None) -> str | None:
+        kwargs = {}
+        if schema:
+            kwargs["text"] = {
+                "format": {
+                    "type": "json_schema",
+                    "name": "response",
+                    "strict": True,
+                    "schema": schema,
+                }
+            }
 
-    response = requests.post("https://ollama.com/api/generate", json=payload, headers=headers)
-    response.raise_for_status()
-    response_data = response.json()
-
-    return response_data['response']
+        response = self.client.responses.create(model=model, input=prompt_message, **kwargs)
+        return response.output_text
 
 
 if __name__ == '__main__':

@@ -1,6 +1,8 @@
 {
-    "Chanos chanos": {
+    "bangus": {
+        "binomial_name": "Chanos chanos",
         "english_name": "Milkfish",
+        "popular_name": "Bangus",
         "local_names": [
             "Awa",
             "Awa-awa",
@@ -30,7 +32,7 @@
             "Modbod",
             "Sabalo"
         ],
-        "description": "This fish has a long, slightly flattened body with an oval cross‑section. It possesses two dorsal spines followed by 13 to 17 soft dorsal rays, and its anal fin has two spines and eight to ten soft rays. In total, the spine count includes 46 vertebrae. The small, toothless mouth sits low on the head, and a single dorsal fin runs along the middle of the back. Its pectoral fins are shaped like curved blades, while the caudal fin is large and deeply forked. The belly is smooth, lacking any scutes, and there are four branchiostegal rays. The fish’s coloration is olive‑green on the back, silvery along the sides, and the unpaired fins are edged with dark margins.",
+        "description": "This fish has a slender, slightly compressed body that tapers to a large, deeply forked tail. Its mouth is small and lacks teeth, and it possesses a single dorsal fin positioned roughly halfway along its back, supported by two spines and between thirteen and seventeen soft rays. The anal fin has two spines and eight to ten soft rays, while the pectoral fins are curved like a sickle. The belly is smooth, without any bony scutes, and it has four branchiostegal rays beneath the gills. In total, the species has forty‑six vertebrae. Its coloration is olive‑green on the top, silvery along the sides, and the unpaired fins are outlined with dark margins. The overall shape is elongated with an oval cross‑section.",
         "nutrients": {
             "calcium": {
                 "value": 20.3,
@@ -76,28 +78,31 @@
             }
         },
         "health_checks": [
-            "Good source of calcium for bone strength",
-            "Provides iron for oxygen transport and energy",
-            "Rich in protein supporting muscle maintenance",
-            "Contains omega‑3 fatty acids beneficial for cardiovascular health",
-            "Provides selenium for antioxidant protection",
-            "Contains vitamin A supporting vision and immune function",
-            "Provides zinc for immune support and wound healing"
+            "Calcium supports bone health",
+            "Iron aids oxygen transport",
+            "Protein contributes to muscle maintenance",
+            "Omega-3 fatty acids support heart health",
+            "Selenium acts as antioxidant",
+            "Vitamin A promotes vision",
+            "Zinc supports immune function"
         ],
         "health_risks": [
             "Excess calcium may increase kidney stone risk",
-            "High iron intake could contribute to oxidative stress if not balanced",
-            "Very high protein may strain kidneys in susceptible individuals",
-            "Low omega‑3 levels may be insufficient for optimal heart health",
-            "Excess selenium can lead to toxicity symptoms",
-            "Too much vitamin A may cause toxicity",
-            "Elevated zinc intake may interfere with copper absorption"
-        ]
+            "High iron intake can cause oxidative stress",
+            "Very high protein may strain kidneys",
+            "Omega-3 can increase bleeding tendency",
+            "Too much selenium may be toxic",
+            "Excess vitamin A can lead to toxicity",
+            "High zinc intake may cause nausea"
+        ],
+        "source": "https://fishbase.se/summary/Chanos_chanos.html"
     },
-    "Neostethus thessa": {
-        "english_name": "",
-        "local_names": [],
-        "description": "The body has an elongated shape, meaning it is noticeably longer than it is wide, giving it a stretched, streamlined appearance.",
+    "bolinao": {
+        "binomial_name": "Neostethus thessa",
+        "english_name": "Priapium fish",
+        "popular_name": "Bolinao",
+        "local_names": ["Bolinao"],
+        "description": "The body has an elongated shape.",
         "nutrients": {
             "calcium": {
                 "value": 20.3,
@@ -143,60 +148,61 @@
             }
         },
         "health_checks": [
-            "Calcium supports strong bones and teeth",
-            "Iron aids oxygen transport and prevents anemia",
-            "Protein contributes to muscle maintenance and satiety",
-            "Omega‑3 fatty acids promote heart health and brain function",
-            "Selenium acts as an antioxidant and supports thyroid function",
-            "Vitamin A is essential for vision and immune health",
-            "Zinc supports immune response and wound healing"
+            "Good source of calcium",
+            "Rich in iron",
+            "High protein content",
+            "Contains omega-3 fatty acids",
+            "Rich in selenium",
+            "Source of vitamin A",
+            "Provides zinc"
         ],
         "health_risks": [
-            "Excess calcium may lead to kidney stones",
-            "High iron intake can cause toxicity and digestive upset",
-            "Very high protein intake may strain kidneys",
-            "Excess omega‑3 can increase bleeding tendency",
-            "Too much selenium may cause selenosis (e.g., hair loss)",
-            "Overconsumption of vitamin A can cause toxicity and liver damage",
-            "High zinc intake may interfere with copper absorption"
-        ]
+            "Potential for excess calcium intake",
+            "Possible iron overload",
+            "High protein may strain kidneys",
+            "Excess omega-3 could increase bleeding risk",
+            "Selenium excess can be toxic",
+            "Vitamin A excess may cause toxicity",
+            "Excess zinc may cause nausea"
+        ],
+        "source": "https://fishbase.se/summary/Neostethus_thessa.html"
     },
-    "Thunnus albacares": {
-        "english_name": "Yellowfin tuna",
+    "budlis": {
+        "binomial_name": "Katsuwonus pelamis",
+        "english_name": "Striped tuna",
+        "popular_name": "Budlis",
         "local_names": [
-            "Albakora",
-            "Badla-an",
-            "Balarito",
-            "Baliling",
+            "Agtun",
             "Bangkulis",
             "Bankulis",
-            "Bantala-an",
-            "Barelis",
             "Bariles",
             "Barilis",
-            "Bronsehan",
-            "Bugo",
-            "Buyo",
-            "Carao",
+            "Batala-an panit",
+            "Bolis",
+            "Budlis",
+            "Budlisan",
+            "Bulis",
+            "Buslugan",
+            "Golyasan",
+            "Gulyaman",
+            "Gulyangan",
+            "Gulyasan",
             "Karaw",
-            "Kikyawon",
-            "Malaguno",
-            "Malalag",
-            "Oriles",
-            "Painit",
-            "Pak-an",
-            "Pala-pala",
+            "Palawayan",
             "Panit",
-            "Panitto",
-            "Paranganon",
-            "Pirit",
-            "Tambakol",
-            "Tambakul",
-            "Tiklaw",
+            "Pawayan",
+            "Poyan",
+            "Pundahan",
+            "Puy-yan",
+            "Puyan",
+            "Rayado",
+            "Sambagon",
+            "Sobad",
+            "Tangi (Simmandya)",
             "Tulingan",
-            "Vahuyo"
+            "Turingan"
         ],
-        "description": "This large, elongated fish has a streamlined, slightly laterally compressed body and a total of 39 vertebrae. It possesses 11 to 14 dorsal spines and 12 to 16 soft rays on the first dorsal fin, while the anal fin has no spines and carries 11 to 16 soft rays. The second dorsal fin is set very close to the first, separated only by a narrow space, and is followed by eight to ten small finlets; the anal fin is likewise followed by seven to ten finlets. In bigger individuals the second dorsal and anal fins can become unusually long, extending to more than 20 % of the fish’s fork length. The pectoral fins are moderately long, typically reaching just beyond the origin of the second dorsal fin and measuring about a quarter of the fish’s length. Between the pelvic fins are two paired flaps known as interpelvic processes. The skin is covered with very small scales, while a subtle band of larger scales forms a faint corselet along the sides. The caudal peduncle is extremely slender and bears a strong lateral keel on each side, flanked by two smaller keels, and the ventral surface of the liver is smooth, lacking any striations. A swim‑bladder is present. In life, the back shines metallic dark blue that fades to yellow toward the sides and becomes silvery on the belly, which often displays about twenty broken, nearly vertical lines. The dorsal and anal fins, together with their finlets, are bright yellow, and each finlet is edged with a thin black border. The overall body shape is fusiform with an oval cross‑section.",
+        "description": "This fish has a streamlined, elongated body that is rounded in cross‑section. Its dorsal fin is made up of 14 to 16 spines followed by 14 to 15 soft rays, and the two dorsal fins are separated by a very small gap no larger than the eye; the second dorsal fin is followed by seven to nine small finlets. The anal fin lacks spines and contains 14 to 15 soft rays, with eight or so finlets behind it. It has 26–27 short rays in each pectoral fin and two small flaps between the pelvic fins. The mouth holds small, cone‑shaped teeth arranged in a single row, and the first gill arch bears many gill rakers—about fifty‑three to sixty‑three. The fish’s skeleton includes 41 vertebrae. Its body is mostly scaleless except for a bony band (corselet) and the lateral line, and each side of the caudal‑fin base has a prominent keel flanked by two smaller keels. In life, the back is a dark purplish‑blue while the lower sides and belly are silvery, marked with four to six striking longitudinal dark bands that may appear as a series of dark blotches.",
         "nutrients": {
             "calcium": {
                 "value": 20.3,
@@ -242,28 +248,31 @@
             }
         },
         "health_checks": [
-            "Rich in protein",
-            "Good source of calcium",
-            "Provides iron for blood health",
-            "Contains omega‑3 fatty acids for heart health",
-            "High in selenium for antioxidant support",
-            "Contains vitamin A for vision",
-            "Provides zinc for immune function"
+            "Calcium supports bone health",
+            "Iron aids oxygen transport",
+            "Protein promotes muscle maintenance",
+            "Omega-3 contributes to heart health",
+            "Selenium supports antioxidant defenses",
+            "Vitamin A essential for vision",
+            "Zinc enhances immune function"
         ],
         "health_risks": [
-            "Potential calcium excess may contribute to kidney stones",
-            "High selenium intake can lead to selenosis",
-            "Iron excess may cause oxidative stress",
-            "Excess omega‑3 may affect blood clotting",
-            "Vitamin A excess may cause toxicity"
-        ]
+            "Potential kidney stone formation from excess calcium",
+            "Iron overload can cause oxidative damage",
+            "Excess omega-3 may increase bleeding risk",
+            "High selenium intake may cause toxicity",
+            "Excess vitamin A may lead to toxicity"
+        ],
+        "source": "https://fishbase.se/summary/Katsuwonus_pelamis.html"
     },
-    "Sardinella lemuru": {
-        "english_name": "",
+    "tamban": {
+        "binomial_name": "Sardinella lemuru",
+        "english_name": "Bali sardinella",
+        "popular_name": "Tamban",
         "local_names": [
             "Tamban"
         ],
-        "description": "This fish has no dorsal or anal spines, with thirteen to twenty‑one soft rays on the dorsal fin and twelve to twenty‑three soft rays on the anal fin. A faint golden spot sits just behind the gill opening, followed by a subtle golden line running along the side of the body, and a clearly defined black spot marks the rear edge of the gill cover where pigment is absent. Its body is elongated and almost cylindrical, giving it a streamlined, fusiform shape, while the cross‑section is laterally compressed. It can be told apart from other clupeid species in the eastern Indian Ocean and western Pacific by having eight pelvic fin rays, and it differs from *Sardinella longiceps* by possessing a shorter head and fewer lower gill rakers.",
+        "description": "The fish has no dorsal spines and between thirteen and twenty‑one soft rays on its dorsal fin, while the anal fin lacks spines and bears roughly twelve to twenty‑three soft rays. A subtle golden spot sits just behind the gill opening, followed by a faint golden line that runs along the middle of its side, and a distinct black spot marks the rear edge of the gill cover where pigment is absent. Its body is elongated and almost cylindrical in shape, giving it a streamlined, fusiform appearance that is laterally compressed. This species can be distinguished from other clupeids in the eastern Indian Ocean and western Pacific by the number of rays in its pelvic fin, and it differs from *Scomberomorus longiceps* by having a shorter head and fewer lower‑gill rakers.",
         "nutrients": {
             "calcium": {
                 "value": 20.3,
@@ -309,26 +318,113 @@
             }
         },
         "health_checks": [
-            "Rich in calcium",
-            "Provides iron for blood health",
-            "High protein content",
-            "Contains omega‑3 fatty acids",
-            "Good source of selenium",
-            "Provides vitamin A",
-            "Contains zinc"
+            "Supports bone health",
+            "Prevents anemia",
+            "Builds muscle",
+            "Promotes heart health",
+            "Provides antioxidant protection",
+            "Supports vision",
+            "Boosts immune function"
         ],
         "health_risks": [
-            "No significant risks identified"
-        ]
+            "May contribute to kidney stones",
+            "Potential oxidative stress",
+            "Can strain kidneys",
+            "May increase bleeding risk",
+            "Risk of selenosis",
+            "Risk of vitamin A toxicity",
+            "May cause copper deficiency"
+        ],
+        "source": "https://fishbase.se/summary/Sardinella_lemuru.html"
     },
-    "Oreochromis niloticus": {
-        "english_name": "",
+    "tilapia": {
+        "binomial_name": "Oreochromis niloticus",
+        "english_name": "Nile tilapia",
+        "popular_name": "Tilapia",
         "local_names": [
             "Pla pla",
             "Tilapia",
             "Tilapiya"
         ],
-        "description": "This tilapia is a relatively large, deep‑bodied fish with a streamlined, laterally‑compressed shape. It typically has 15 to 18 dorsal spines and 11 to 13 soft rays on the dorsal fin, while the anal fin carries three spines and nine to eleven soft rays; the vertebral count ranges from 30 to 32. The head is proportionally small, and even mature males have only modestly enlarged jaws, the lower jaw measuring about 29–37 % of the head length. Male breeding individuals lack the tasselled genital papilla found in some other species. The body depth reaches roughly 36–50 % of the fish’s standard length. A striking feature at every life stage is the presence of regular vertical stripes that run through the entire depth of the caudal (tail) fin; in smaller individuals these stripes are broader, form an arc, and begin at the fin’s base. Adult males are generally bluish‑pink, sometimes showing a darker throat, belly, anal, and pelvic fins, whereas females are usually brownish on top with a silvery‑white underside and exhibit about ten thin vertical bars.",
+        "description": "The fish is a relatively large, deep‑bodied tilapia with a slender, laterally‑compressed shape. It has 15 to 18 spiny rays on its dorsal fin and 11 to 13 soft rays on the same fin, while the anal fin carries three spines and nine to eleven soft rays. Its total vertebrae count ranges from 30 to 32. The head is proportionally small, making up only a modest part of the body length, and even mature males have jaws that are not dramatically enlarged—the lower jaw is about 30‑37 % of the head length. Breeding males lack a tassel‑like genital papilla. The body is quite tall, with a depth that measures roughly one‑third to one‑half of the standard length. A key identifying feature is the presence of regular vertical stripes that run the full height of the tail fin at every life stage; in younger fish these stripes are wider, form an arc, and begin at the base of the tail. Males typically display a bluish‑pink coloration, sometimes with darker throats and darker anal and pelvic fins, whereas females are generally brownish on top with silvery‑white undersides and about ten thin vertical bars.",
+        "nutrients": {
+            "calcium": {
+                "value": 20.3,
+                "min": 6.4,
+                "max": 45.4,
+                "unit": "mg/100g"
+            },
+            "iron": {
+                "value": 0.406,
+                "min": 0.138,
+                "max": 0.948,
+                "unit": "mg/100g"
+            },
+            "protein": {
+                "value": 16.0,
+                "min": 14.0,
+                "max": 19.0,
+                "unit": "%"
+            },
+            "omega3": {
+                "value": 0.105,
+                "min": 0.035,
+                "max": 0.259,
+                "unit": "g/100g"
+            },
+            "selenium": {
+                "value": 22.4,
+                "min": 8.0,
+                "max": 51.5,
+                "unit": "μg/100g"
+            },
+            "vitamina": {
+                "value": 63.6,
+                "min": 15.2,
+                "max": 235.3,
+                "unit": "μg/100g"
+            },
+            "zinc": {
+                "value": 0.508,
+                "min": 0.287,
+                "max": 0.826,
+                "unit": "mg/100g (wet weight)"
+            }
+        },
+        "health_checks": [
+            "Good source of calcium",
+            "Rich in iron",
+            "High protein content",
+            "Contains omega-3 fatty acids",
+            "Provides selenium",
+            "Contains vitamin A",
+            "Provides zinc"
+        ],
+        "health_risks": [
+            "Excess calcium may contribute to kidney stones",
+            "High iron intake can lead to overload",
+            "High protein may strain kidneys",
+            "Omega-3 can increase bleeding tendency",
+            "Too much selenium is toxic",
+            "Excess vitamin A may cause toxicity",
+            "High zinc intake may cause nausea"
+        ],
+        "source": "https://fishbase.se/summary/Oreochromis_niloticus.html"
+    },
+    "sagision": {
+        "binomial_name": "Nemipterus celebicus",
+        "english_name": "Celebes threadfin bream",
+        "popular_name": "Sagision",
+        "local_names": [
+            "Bisugo",
+            "Hotik",
+            "Lagao",
+            "Lagaw",
+            "Sagisi",
+            "Sagision",
+            "Tingin"
+        ],
+        "description": "The fish has a total of ten dorsal spines and nine soft rays on its dorsal fin, together with three spines and seven soft rays on its anal fin. It lacks a suborbital spine, and its preopercle is covered by three rows of scales running across it. Its pectoral fins are long, extending to a point between the anus and the start of the anal fin, while the pelvic fins are even longer, reaching the level of, or extending beyond, the origin of the anal fin. The upper lobe of the caudal fin is slightly rounded and bears a rosy hue. A distinct line runs upward from the rear edge of the suborbital area and meets the dorsal profile about two to four scales before the dorsal fin begins. An axillary scale is present. In coloration, the upper part of the body is pinkish, transitioning to a silvery‑white shade on the underside. Two silvery‑mauve lines run in front of and below the eye. The fish’s body is fusiform and of normal shape, with an oval cross‑section.",
         "nutrients": {
             "calcium": {
                 "value": 20.3,
@@ -375,100 +471,28 @@
         },
         "health_checks": [
             "Supports bone health with calcium",
-            "Promotes oxygen transport with iron",
-            "Provides high-quality protein",
-            "Supports heart and brain health with omega‑3",
-            "Acts as antioxidant via selenium",
-            "Aids vision and immune function with vitamin A",
-            "Boosts immune function with zinc"
+            "Provides iron for oxygen transport",
+            "High protein content",
+            "Contains omega-3 fatty acids",
+            "Rich in selenium, an antioxidant",
+            "Source of vitamin A for vision",
+            "Provides zinc for immune function"
         ],
         "health_risks": [
-            "Possible kidney stones from calcium excess",
-            "Iron overload risk",
-            "High protein may strain kidneys",
-            "Omega‑3 excess may increase bleeding tendency",
-            "Selenium excess can cause selenosis",
-            "Vitamin A toxicity risk",
-            "Excess zinc may lead to copper deficiency"
-        ]
-    },
-    "Nemipterus celebicus": {
-        "english_name": "Celebes threadfin bream",
-        "local_names": [
-            "Bisugo",
-            "Hotik",
-            "Lagao",
-            "Lagaw",
-            "Sagisi",
-            "Sagision",
-            "Tingin"
+            "Excess calcium may lead to kidney stones",
+            "High iron intake can cause toxicity",
+            "Very high protein may stress kidneys",
+            "Large omega-3 amounts may affect blood clotting",
+            "Too much selenium can cause selenosis",
+            "Excess vitamin A may cause toxicity",
+            "High zinc intake may interfere with copper absorption"
         ],
-        "description": "The fish has a total of ten dorsal spines and nine soft rays, along with three anal spines and seven anal soft rays. It lacks a suborbital spine, and the preopercle bears three transverse rows of scales. Its pectoral fins are long, extending to a point between the anus and the origin of the anal fin, while the pelvic fins are very elongated, reaching the level of—or even extending beyond—the start of the anal fin. The upper lobe of the caudal (tail) fin is slightly rounded and has a rosy hue. A distinct line runs upward from the rear edge of the suborbital area to the dorsal profile, meeting it about two to four scales before the dorsal fin begins, and an axillary scale is present. The fish’s coloration is pinkish on the upper body, fading to silvery‑white on the underside, with two silvery‑mauve lines positioned in front of and below the eye. Its body shape is fusiform and normal, with an oval cross‑section.",
-        "nutrients": {
-            "calcium": {
-                "value": 20.3,
-                "min": 6.4,
-                "max": 45.4,
-                "unit": "mg/100g"
-            },
-            "iron": {
-                "value": 0.406,
-                "min": 0.138,
-                "max": 0.948,
-                "unit": "mg/100g"
-            },
-            "protein": {
-                "value": 16.0,
-                "min": 14.0,
-                "max": 19.0,
-                "unit": "%"
-            },
-            "omega3": {
-                "value": 0.105,
-                "min": 0.035,
-                "max": 0.259,
-                "unit": "g/100g"
-            },
-            "selenium": {
-                "value": 22.4,
-                "min": 8.0,
-                "max": 51.5,
-                "unit": "μg/100g"
-            },
-            "vitamina": {
-                "value": 63.6,
-                "min": 15.2,
-                "max": 235.3,
-                "unit": "μg/100g"
-            },
-            "zinc": {
-                "value": 0.508,
-                "min": 0.287,
-                "max": 0.826,
-                "unit": "mg/100g (wet weight)"
-            }
-        },
-        "health_checks": [
-            "Rich in Calcium",
-            "Good source of Iron",
-            "High Protein",
-            "Contains Omega‑3 fatty acids",
-            "Provides Selenium",
-            "Contains Vitamin A",
-            "Source of Zinc"
-        ],
-        "health_risks": [
-            "Excess calcium may contribute to kidney stone formation",
-            "Too much iron can cause oxidative stress",
-            "High protein intake may strain kidneys in vulnerable individuals",
-            "Elevated omega‑3 levels may affect blood clotting",
-            "Selenium excess can lead to selenosis",
-            "Vitamin A overconsumption may be toxic",
-            "Excess zinc can interfere with copper absorption"
-        ]
+        "source": "https://fishbase.se/summary/Nemipterus_celebicus.html"
     },
-    "Rastrelliger Faughni": {
+    "burao": {
+        "binomial_name": "Rastrelliger faughni",
         "english_name": "Island mackerel",
+        "popular_name": "Burao",
         "local_names": [
             "Alumahan",
             "Alumahang Bato",
@@ -489,7 +513,7 @@
             "Panit",
             "Tamarang"
         ],
-        "description": "The fish has a streamlined, fusiform body with an oval cross‑section and a head that is longer than the depth of its body. It possesses eight to eleven dorsal spines and twelve soft dorsal rays, while the anal fin lacks spines and contains twelve soft rays, with the anal spine being only rudimentary. A total of thirty‑one vertebrae support its shape, and a small, single interpelvic process is present. Its maxilla is covered by the lachrymal bone, and a functional swim bladder helps it maintain buoyancy. The gill rakers are relatively short, extending only a little into the mouth, and the longest ones are bristly, numbering between thirty and fifty‑five on each side. A distinctive black blotch sits just behind the base of the pectoral fin, and the belly displays a yellow‑silver hue. Between two and six large spots are often seen at the base of the first dorsal fin, and some individuals show two faint stripes running along the level of the lateral line.",
+        "description": "The fish has a streamlined, fusiform body with an oval cross‑section. Its head is noticeably longer than the depth of its body, and the maxilla is covered by the lachrymal bone. It possesses a swim bladder and a small, single interpelvic process, while the anal spine is only rudimentary. The dorsal fin is supported by eight to eleven spines and twelve soft rays, and the anal fin has twelve soft rays with no spines. In total, the species has thirty‑one vertebrae. Its gill rakers are bristly, with thirty to fifty‑five on each side, but they do not extend far into the mouth. A distinctive black blotch sits just behind the base of the pectoral fin, and the belly displays a yellowish‑silver hue. Between two and six large spots often appear at the base of the first dorsal fin, and some individuals show two faint stripes along the lateral line.",
         "nutrients": {
             "calcium": {
                 "value": 20.3,
@@ -535,26 +559,29 @@
             }
         },
         "health_checks": [
-            "Supports bone strength",
-            "Promotes healthy blood formation",
-            "Aids muscle growth and repair",
-            "Supports heart and brain function",
-            "Provides antioxidant protection",
-            "Maintains vision and immune health",
-            "Enhances immune response"
+            "Rich in calcium",
+            "Good source of iron",
+            "High protein content",
+            "Contains omega-3 fatty acids",
+            "High selenium levels",
+            "Provides vitamin A",
+            "Contains zinc"
         ],
         "health_risks": [
-            "Excess calcium may contribute to kidney stones",
-            "High iron intake can cause iron overload",
-            "Very high protein may burden kidneys",
-            "Large omega‑3 consumption may increase bleeding tendency",
-            "Excess selenium can lead to selenosis",
-            "Too much vitamin A may cause toxicity",
-            "High zinc intake may interfere with copper absorption"
-        ]
+            "Potential calcium excess may lead to kidney stones",
+            "Risk of iron overload",
+            "High protein may stress kidneys",
+            "Elevated omega-3 could increase bleeding risk",
+            "Selenium toxicity possible",
+            "Excess vitamin A may cause toxicity",
+            "High zinc intake may cause copper deficiency"
+        ],
+        "source": "https://fishbase.se/summary/Rastrelliger_faughni.html"
     },
-    "Saurida Undosquamis": {
+    "talho": {
+        "binomial_name": "Saurida undosquamis",
         "english_name": "Brushtooth lizardfish",
+        "popular_name": "Talho",
         "local_names": [
             "Al-alibot",
             "Balanghutan",
@@ -576,7 +603,7 @@
             "Tiki",
             "Tiki-tiki"
         ],
-        "description": "The fish has no dorsal spines and twelve soft rays on its dorsal fin, and its anal fin also lacks spines and has about twelve soft rays. Its body is cigar‑shaped—long and slightly rounded or compressed—with a pointed, flattened head and a rounded snout. The dorsal fin begins nearer the small adipose fin than to the tip of the snout, while the anal fin starts closer to the base of the tail than to the gill cover. Its coloration is a brown‑gray shade on the top that fades to a creamy hue underneath, and the sides display eight to ten faint, darker spots running down the middle. Overall, the fish has an elongated, circular cross‑section shape.",
+        "description": "The fish has no dorsal spines and about eleven or twelve soft rays on its dorsal fin, with a similar number of soft rays on its anal fin and no anal spines. Its body is cigar‑shaped, either rounded or slightly flattened, and its head is pointed and low‑set with a rounded snout. The dorsal fin starts nearer the small, fleshy adipose fin than it does the tip of the snout, while the anal fin begins closer to the base of the tail than to the gill cover. The fish’s coloration is a brown‑gray shade on the upper side that fades to a creamy tone underneath, and it bears eight to ten faint darker spots running along the middle of its sides. Overall, the fish has an elongated, circular‑cross‑section body shape.",
         "nutrients": {
             "calcium": {
                 "value": 20.3,
@@ -622,22 +649,210 @@
             }
         },
         "health_checks": [
-            "Supports bone strength and density",
-            "Facilitates oxygen transport and energy metabolism",
-            "Provides high-quality protein for muscle maintenance",
-            "Delivers essential omega‑3 fatty acids for heart and brain health",
-            "Offers antioxidant protection and thyroid support",
-            "Promotes vision, immune function, and skin health",
-            "Aids immune response and wound healing"
+            "Supports bone health",
+            "Helps blood formation",
+            "Builds muscle tissue",
+            "Promotes heart health",
+            "Provides antioxidant protection",
+            "Supports vision and immune function",
+            "Supports immune function"
         ],
         "health_risks": [
-            "Excess calcium may contribute to kidney stone formation",
-            "High iron intake can lead to oxidative stress and overload",
-            "Very high protein levels may strain kidney function",
-            "Very high omega‑3 consumption could affect blood clotting",
-            "Excess selenium may cause selenosis (toxicity)",
-            "Too much vitamin A can be hepatotoxic and cause birth defects",
-            "Elevated zinc intake may interfere with copper absorption"
-        ]
+            "Excess calcium may cause kidney stones",
+            "Iron overload can be toxic",
+            "High protein intake may strain kidneys",
+            "Excess omega‑3 may affect blood clotting",
+            "Too much selenium can cause selenosis",
+            "Vitamin A excess may cause toxicity",
+            "Excess zinc may interfere with copper absorption"
+        ],
+        "source": "https://fishbase.se/summary/Saurida_undosquamis.html"
+    },
+    "sapsap": {
+        "binomial_name": "Leiognathus equula",
+        "english_name": "Common ponyfish",
+        "popular_name": "Sapsap",
+        "local_names": [
+            "Barurog",
+            "Daguldolan",
+            "Dalupane",
+            "Dalupani",
+            "Danutan",
+            "Lalakasen",
+            "Laway",
+            "Lawayakan",
+            "Lawayan",
+            "Malaway",
+            "Palotpot",
+            "Parutpot",
+            "Sap-sap",
+            "Sap-sap betsang",
+            "Sapsap",
+            "Talibukno",
+            "Tambon",
+            "Tambong"
+        ],
+        "description": "This fish has a deep, laterally‑compressed body with a strongly humped back, giving it a very tall profile—its depth is roughly half its length. Its mouth points downward when it opens. The dorsal fin is supported by eight spines and fifteen to sixteen soft rays, while the anal fin has three spines and fourteen to fifteen soft rays. The first gill arch bears eighteen to twenty‑two short, fleshy gill rakers that are less than half the length of the gill filaments. The head and breast are smooth and scaleless, and the lateral line is lined with sixty‑one to sixty‑six tubular scales. Adults are greyish on the back, silvery on the belly, and display many faint, closely spaced parallel bars across the back, often with a dark brown saddle marking on the caudal peduncle. The area under the pectoral fins (axil) ranges from grey to black, the soft dorsal fin has a black margin, and both lobes of the tail fin have broad, dusky edges. The pectoral, pelvic, and anal fins are colorless to yellowish. Juveniles, about five to seven centimeters long, are marked by thin, closely spaced grey vertical lines that run from the back down to about mid‑height; the membrane between the anal‑fin spines is conspicuously yellow, the rear edges of the tail‑fin lobes are pale yellow with dusky shading, the other fins are transparent, and the snout bears small black dots.",
+        "nutrients": {
+            "calcium": {
+                "value": 20.3,
+                "min": 6.4,
+                "max": 45.4,
+                "unit": "mg/100g"
+            },
+            "iron": {
+                "value": 0.406,
+                "min": 0.138,
+                "max": 0.948,
+                "unit": "mg/100g"
+            },
+            "protein": {
+                "value": 16.0,
+                "min": 14.0,
+                "max": 19.0,
+                "unit": "%"
+            },
+            "omega3": {
+                "value": 0.105,
+                "min": 0.035,
+                "max": 0.259,
+                "unit": "g/100g"
+            },
+            "selenium": {
+                "value": 22.4,
+                "min": 8.0,
+                "max": 51.5,
+                "unit": "μg/100g"
+            },
+            "vitamina": {
+                "value": 63.6,
+                "min": 15.2,
+                "max": 235.3,
+                "unit": "μg/100g"
+            },
+            "zinc": {
+                "value": 0.508,
+                "min": 0.287,
+                "max": 0.826,
+                "unit": "mg/100g (wet weight)"
+            }
+        },
+        "health_checks": [
+            "High calcium content",
+            "Rich in iron",
+            "Good protein source",
+            "Contains omega-3 fatty acids",
+            "Source of selenium",
+            "Vitamin A rich",
+            "Contains zinc"
+        ],
+        "health_risks": [
+            "Potential excess calcium",
+            "Possible iron overload",
+            "High protein may strain kidneys",
+            "Excess omega-3 may increase bleeding risk",
+            "Selenium toxicity risk",
+            "Vitamin A excess risk",
+            "Zinc overdose risk"
+        ],
+        "source": "https://fishbase.se/summary/Leiognathus_equula.html"
+    },
+    "moonfish": {
+        "binomial_name": "Mene maculata",
+        "english_name": "Moonfish",
+        "popular_name": "Moonfish",
+        "local_names": [
+            "Bandurya",
+            "Barung-barung",
+            "Belong",
+            "Belong-belong",
+            "Bete-bete",
+            "Bilong bilong",
+            "Bilong-bilong",
+            "Birao-birao",
+            "Bulan-bulan",
+            "Buwan-buwan",
+            "Cadiz",
+            "Chabita",
+            "Chabital",
+            "Chaleta",
+            "Dalupane",
+            "Habas",
+            "Habita",
+            "Hiwas",
+            "Kadis",
+            "Konan",
+            "Kutao",
+            "Kutaw",
+            "Pagalungan",
+            "Salamin-salamin",
+            "San Nicolas",
+            "Sapatero",
+            "Sipol",
+            "Tabas",
+            "Timon-timon",
+            "Tsabita",
+            "Zapatero"
+        ],
+        "description": "This fish has a very deep, almost triangular body that is extremely laterally compressed, giving it a sharp‑edged breast. Its deepest point lies below the lateral line and is at least four times deeper than the shallowest point above the line. The anal fin is unusually long, starting where the pelvic fins attach, and runs low along the body. Juveniles have ten dorsal spines, but the number drops to three or four as they grow, while the dorsal fin carries about 40 to 45 soft rays and the anal fin has 30 to 33 soft rays with no spines. Its coloration is striking: the upper sides are a deep metallic blue, the rest of the body is silvery, and a series of round‑to‑oval dark slate‑blue spots run above and below the lateral line, sometimes with a few extra spots nearby. The pelvic fins show a faint hint of blue, and the other fins are mostly clear or only slightly dusky.",
+        "nutrients": {
+            "calcium": {
+                "value": 20.3,
+                "min": 6.4,
+                "max": 45.4,
+                "unit": "mg/100g"
+            },
+            "iron": {
+                "value": 0.406,
+                "min": 0.138,
+                "max": 0.948,
+                "unit": "mg/100g"
+            },
+            "protein": {
+                "value": 16.0,
+                "min": 14.0,
+                "max": 19.0,
+                "unit": "%"
+            },
+            "omega3": {
+                "value": 0.105,
+                "min": 0.035,
+                "max": 0.259,
+                "unit": "g/100g"
+            },
+            "selenium": {
+                "value": 22.4,
+                "min": 8.0,
+                "max": 51.5,
+                "unit": "μg/100g"
+            },
+            "vitamina": {
+                "value": 63.6,
+                "min": 15.2,
+                "max": 235.3,
+                "unit": "μg/100g"
+            },
+            "zinc": {
+                "value": 0.508,
+                "min": 0.287,
+                "max": 0.826,
+                "unit": "mg/100g (wet weight)"
+            }
+        },
+        "health_checks": [
+            "Good source of calcium",
+            "Rich in iron",
+            "High protein content",
+            "Contains omega‑3 fatty acids",
+            "Provides selenium and vitamin A"
+        ],
+        "health_risks": [
+            "Excess calcium may contribute to kidney stones",
+            "High iron intake can cause gastrointestinal upset",
+            "High protein may strain kidneys",
+            "Elevated omega‑3 can increase bleeding risk",
+            "Too much vitamin A may lead to toxicity"
+        ],
+        "source": "https://fishbase.se/summary/Mene_maculata.html"
     }
 }

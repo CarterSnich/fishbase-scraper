@@ -3,28 +3,33 @@ import json
 from scraper import FishBasePageScraper
 
 fishes = (
-    "Chanos chanos",
-    "Neostethus thessa",
-    "Thunnus albacares",
-    "Sardinella lemuru",
-    "Oreochromis niloticus",
-    "Nemipterus celebicus",
-    "Rastrelliger Faughni",
-    "Saurida Undosquamis"
+    ["Chanos chanos", "bangus"],
+    ["Neostethus thessa", "bolinao"],
+    ["Katsuwonus pelamis", "budlis"],
+    ["Sardinella lemuru", "tamban"],
+    ["Oreochromis niloticus", "tilapia"],
+    ["Nemipterus celebicus", "sagision"],
+    ["Rastrelliger faughni", "burao"],
+    ["Saurida undosquamis", "talho"],
+    ["Leiognathus equula", "sapsap"],
+    ["Mene maculata", "moonfish"],
 )
 
 data = {}
 
 for fish in fishes:
-    genus, species = fish.split(" ")
+    genus, species = fish[0].split(" ")
 
     print(fish)
     fb = FishBasePageScraper(genus, species)
+
     print(f"Scraping page: {fb.source_url}")
     fb.scrape_all()
 
-    data[fish] = {
+    data[fish[1]] = {
+        "binomial_name": fish[0],
         "english_name": fb.english_name,
+        "popular_name": fish[1].capitalize(),
         "local_names": fb.local_names,
         "description": fb.description,
         "nutrients": fb.nutrients,
