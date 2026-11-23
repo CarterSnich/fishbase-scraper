@@ -117,6 +117,7 @@ class FishBasePageScraper:
         Create health checks very brief descriptions (risks and benefits) from the data below,
         without numerical values.
         For example, "High in Protein" as benefit and "Mercury poisoning" for risks. 
+        Add example generic number for how much of that fish to consume depending on the nutrient content.
         Create an JSON object with keys `risks` and `benefits`. 
         Store the health checks on the corresponding keys.
         Make sure to just return a string of JSON response.
